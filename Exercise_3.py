@@ -8,7 +8,7 @@ if x > 0 and y > 0:
     print('Четверть номер: I') # I
 elif x < 0 and y > 0:
     print('Четверть номер: II')  # II
-elif x < 0 and y > 0:
+elif x < 0 and y < 0:
     print('Четверть номер: III') # III
-else:
+elif x < 0 and y < 0:
     print('Четверть номер: VI')
